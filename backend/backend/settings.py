@@ -56,7 +56,7 @@ SECRET_KEY = env(
 )
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -176,8 +176,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # API
 
 # env expects a comma delimited list like
-# CORS_ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
-CORS_ALLOWED_ORIGINS = env("CORS_ALLOWED_ORIGINS")
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000','http://127.0.0.1:3000', 'http://13.38.16.241:3000']
+#CORS_ALLOWED_ORIGINS = env("CORS_ALLOWED_ORIGINS")
 
 
 # Third party APIs

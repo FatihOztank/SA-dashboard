@@ -13,7 +13,7 @@
           {
             "id": "income_diversity",
             "data": {
-              "url": "http://localhost:8000/api/datasets/small-business-support/metrics/income_diversity/",
+              "url": "http://13.38.16.241:8000/api/datasets/small-business-support/metrics/income_diversity/",
               "type": "json"
             },
             "type": "chloropleth",
@@ -59,7 +59,7 @@
           {
             "id": "mean_aud",
             "data": {
-              "url": "http://localhost:8000/api/datasets/small-business-support/metrics/mean_aud/",
+              "url": "http://13.38.16.241:8000/api/datasets/small-business-support/metrics/mean_aud/",
               "type": "json"
             },
             "type": "chloropleth",
@@ -111,7 +111,7 @@
           {
             "id": "median_aud",
             "data": {
-              "url": "http://localhost:8000/api/datasets/small-business-support/metrics/median_aud/",
+              "url": "http://13.38.16.241:8000/api/datasets/small-business-support/metrics/median_aud/",
               "type": "json"
             },
             "type": "chloropleth",
@@ -219,7 +219,7 @@
           {
             "id": "quartile",
             "data": {
-              "url": "http://localhost:8000/api/datasets/small-business-support/metrics/quartile/",
+              "url": "http://13.38.16.241:8000/api/datasets/small-business-support/metrics/quartile/",
               "type": "json"
             },
             "type": "chloropleth",

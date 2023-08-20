@@ -6,6 +6,12 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/cache/apt/lists
 
+# install required libs
+RUN apt-get update && \
+    apt-get install -y libgeos-dev && \
+    apt-get clean && \
+    rm -rf /var/cache/apt/lists
+
 ADD ./requirements.txt .
 
 RUN pip install -r requirements.txt
