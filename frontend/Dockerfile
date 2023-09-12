@@ -8,6 +8,7 @@ WORKDIR /usr/src/app
 # has changed.
 COPY package*.json ./
 RUN npm clean-install
+RUN mkdir node_modules/.cache && chmod -R 777 node_modules/.cache
 
 # Add the rest of the project
 ADD . .
